@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> register </title>
+  </head>
+  <body>
+    <form action="register.php" method="post">  <!--register.php로 데이터 전송(post 방식)-->
+      <h3> 가입하기 </h3>
+      <br> 기본 정보를 입력하여 페이지에 가입하세요. </br>
+      <br> ID : <input type="text" name="id"> </br>
+      <br> PW : <input type="password" name="pw"> </br>
+      <br> E-mail : <input type="text" name="email"> </br>
+      <br> Name : <input type="text" name="name"> </br>
+      <br> Sex :
+       <input type="radio" name="sex" value="F">여성
+       <input type="radio" name="sex" value="M">남성 </br>
+      <br> <input type="reset" name="reset" value="다시쓰기"> </br>
+      <br> <input type="submit" name="register" value="완료하기"> </br>
+    </form>
+ </body>
+</html>
